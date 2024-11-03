@@ -1,0 +1,383 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+
+header{
+width: 100%;
+height: 16vh;
+display: flex;
+justify-content: center;
+}
+
+#header_name{
+width: 98%;
+height: 16vh;
+border-bottom: solid 1px black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#Samuel{
+font-family: "K2D";
+font-size: 66px;
+font-weight: 500;
+padding-left: 3%;
+background: linear-gradient(90deg, #FF1900, #0109D4);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+#header_name input{
+border-radius: 50%;
+width: 10vh;
+height: 5vh;
+margin-right: 5vh;
+}
+
+#bem_vindo{
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+#bem_vindo div{
+width: 30%;
+}
+
+#bemvindo {
+font-family: "Monda";
+font-size: 80px;
+background: linear-gradient(90deg, #E26070, #3E3E3E, #FF0000);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#sam{
+display: flex;
+}
+
+#sam_img{
+padding-left: 4%;
+}
+
+#sam_text{
+font-family: "Kadwa";
+font-size: 36px;
+padding-left: 5%;
+width: 50%;
+background: linear-gradient(90deg, #FF1900, #0109D4);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+display: flex;
+justify-content: center;
+}
+
+#profissional{
+margin-top: 10vh;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#prof_text{
+width: 45%;
+background: linear-gradient(90deg, #FF1900, #0109D4);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+#profissional p{
+font-family: "K2D";
+font-size: 40px;
+}
+
+#profissional span{
+font-family: "K2D";
+font-size: 48px;
+}
+
+.subtitulo{
+margin-top: 1.5vh;
+margin-bottom: 1.5vh;
+}
+
+footer{
+margin-top: 10vh;
+}
+
+#icons{
+display: flex;
+margin-top: 3vh;
+justify-content: center;
+}
+
+#icons div{
+height: 10vh;
+width: 10vh;
+margin-left: 1.8vh;
+margin-right: 1.8vh;
+}
+
+#icons div img{
+height: 10vh;
+width: 10vh;
+}
+
+
+
+
+
+
+
+
+
+footer {
+height: 180px;
+background: linear-gradient(to right, #F96D1F 27%, #ff1900e3 69%, #c50a0a 85%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 24px;
+font-family: "Kadwa";
+font-weight: 100;
+}
+
+#icones{
+display: flex;
+}
+
+.space_icons{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.dark-mode{
+background-color: #000000;
+}
+
+.sam_text_black{
+font-family: "Kadwa";
+font-size: 36px;
+padding-left: 5%;
+width: 50%;
+background: linear-gradient(90deg, #FF1900, #F96D1F);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+display: flex;
+justify-content: center;
+}
+
+.dark-mode{
+background-color: #000000;
+}
+
+.dark-mode #bemvindo{
+font-family: "Monda";
+
+background: linear-gradient(90deg, #E26070, #fff, #FF0000);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-shadow: rgba(255, 255, 255, 0.377) 0px 14px 28px, rgba(255, 255, 255, 0.349) 0px 10px 10px;
+}
+
+.dark-mode #Samuel,
+.dark-mode #sam_text,
+.dark-mode #prof_text {
+    background: linear-gradient(90deg, #Ff1900, #F96D1F); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media only screen and (max-width: 425px) {
+    
+        header{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        }
+        
+        #header_name{
+        width: 98%;
+        height: 8vh;
+        border-bottom: solid 1px black;
+        display: flex;
+        align-items: center;
+        }
+        
+        #header_name p{
+        font-family: "K2D";
+        font-size: 46px;
+        font-weight: 500;
+        padding-left: 3%;
+        background: linear-gradient(90deg, #FF1900, #0109D4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        }
+
+        #header_name input{
+        border-radius: 50%;
+        width: 5vh;
+        height: 2vh;
+        margin-right: 2vh;
+        }
+
+        #bem_vindo{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+        
+        #bem_vindo div{
+        width: 70%;
+        }
+        
+        #bemvindo {
+        font-family: "Monda";
+        font-size: 50px;
+        background: linear-gradient(90deg, #E26070, #3E3E3E, #FF0000);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+         
+        #sam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        
+
+        #sam_img img{
+        height: 300px;
+        width: 270px;
+        }
+        
+        #sam_text{
+        font-family: "Kadwa";
+        font-size: 18px;
+        margin-top: 3vh;
+        width: 80%;
+        background: linear-gradient(90deg, #FF1900, #0109D4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: flex;
+        justify-content: center;
+        }
+        
+        #profissional{
+        margin-top: 5vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        
+        #prof_text{
+        width: 70%;
+        background: linear-gradient(90deg, #FF1900, #0109D4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        }
+        
+        #profissional p{
+        font-family: "K2D";
+        font-size: 20px;
+        }
+        
+        #profissional span{
+        font-family: "K2D";
+        font-size:24px;
+        }
+        
+        .subtitulo{
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        }
+        
+        
+        #icons{
+        display: flex;
+        margin-top: 3vh;
+        justify-content: center;
+        }
+        
+        #icons div{
+        height: 7vh;
+        width: 100%;
+        margin-left: 1.8vh;
+        margin-right: 1.8vh;
+        }
+        
+        #icons div img{
+        height:6vh;
+        width: 6vh;
+        }
+        
+        footer {
+        height: 123px;
+        background: linear-gradient(to right, #F96D1F 27%, #ff1900e3 69%, #c50a0a 85%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 16px;
+        font-family: "Kadwa";
+        font-weight: 100;
+        margin-top: 5vh;
+        }
+        
+        #icones{
+        display: flex;
+        }
+
+        #icones img{
+        height: 47px;
+        width: 47px;;
+        }
+        
+        .space_icons{
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+        
+}
+
+.k2d-medium {
+font-family: "K2D", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.monda-medium {
+font-family: "Monda", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+.kadwa-regular {
+font-family: "Kadwa", serif;
+font-weight: 400;
+font-style: normal;
+}
